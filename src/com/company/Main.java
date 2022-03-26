@@ -30,7 +30,7 @@ public class Main {
             student = new Student(id, name,className, dht);
             data.add(student);
         }
-
+        // Thong dep zai
         // Print data
         data.stream().forEach(i -> System.out.println(i));
     }
